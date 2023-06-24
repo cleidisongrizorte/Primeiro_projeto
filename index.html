@@ -12,11 +12,13 @@
     <header>
         <a href="#" class="logo">Cleidison.</a>
         <nav class="navbar">
-            <a class="active" href="#">Home</a>
-            <a href="#">Comprar</a>
-            <a href="#">Mercado</a>
-            <a href="#">Trade</a>
-            <a href="#">Contato</a>
+            <a href="#home">Home</a>            
+            <a href="#mercado">Mercado</a>
+            <a href="#noticia">Noticia</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#contato">Contato</a>            
+            <a class="active"href="#aplicativo">Nosso Aplicativo</a>
         </nav>
         <div class="icons">
             <i class="fas fa-bars" id="menu-bars"></i>
@@ -63,10 +65,10 @@
             <!--<div class="swiper-pagination"></div>!-->
         </div>
     </section>    
-    <div class="rotacao">
+    <div class="rotacao" id="mercado">
         <iframe src="banner_rotacao.html" frameborder="0"></iframe>
     </div> 
-    <section class="noticia-top">        
+    <section class="noticia-top" id="noticia">        
             <div class="noticia">
                 <img src="img/noticia-top01.png" alt="">  
                 <h1>Seja bem v</h1>
@@ -89,7 +91,7 @@
             </div> 
 
     </section>
-    <section class="lista-produtos">
+    <section class="lista-produtos" id="produtos">
         <div class="produtos">
             <div class="conteudo">
                 <h1>Spot</h1>
@@ -135,7 +137,7 @@
         <iframe scrolling="no" src="Lista_grafico.html" frameborder="0"></iframe>
 
     </section>
-    <section class="app">
+    <section class="app" id="aplicativo">
 
         <div class="app-video">
             <video autoplay="" loop="" muted="" playsinline="" width="280" height="580" src="app.mp4"></video>
@@ -157,44 +159,59 @@
             </div>                     
         </div>  
     </section>
-    <section class="comunidade">
+    <section class="comunidade" id="contato">
         <div>
             <h1>Acessa Nossa Comunidades.</h1>
         </div>
         <i class="fa-brands fa-whatsapp"></i>
         <i class="fa-brands fa-telegram"></i>
         <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
     </section>
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-menu">
+            <h1>Portfólio</h1>
+        </div>
+        <div class="Container-port">
+        <div class="portfolio-images">
+            <img src="img/cleidison_foto.png" alt="">
+        </div>
+        <div class="portfolio-text">
+            <h2>Olá,eu Sou</h2>
+            <h1>Cleidison Grizorte</h1>            
+            <span>Estudante do curso Técnico Integrado em Desenvolvimento de Sistemas.</span><br>
+            <span>no<strong> Instituto Federal de Goiás </strong> na turna do <strong>2º ano</strong> com o
+                Professor <strong>Frederico Nogueira</strong>.</span>
+
+
+           
+            <div class="portfolio-icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+        </div>        
+    </div>
+    </section>
+    
+
     <footer>
-    <div class="menu-footer">
-        <div class="logo-footer">
-            <span>Cleidison</span>
-        </div>
-        <div class="menu-fo">
-            <h1>Menu</h1>            
-                <a href="#">Home</a>
-                <a href="#">Comprar</a>
-                <a href="#">Mercado</a>
-                <a href="#">Trade</a>
-                <a href="#">Contato</a>            
-        </div>
-        <div class="menu-fo">
-            <h1>Serviços</h1>            
-                <a href="#">Home</a>
-                <a href="#">Comprar</a>
-                <a href="#">Mercado</a>
-                <a href="#">Trade</a>
-                <a href="#">Contato</a>            
-        </div>
-        <div class="menu-fo">
-            <h1>Fale Conosco</h1>            
-                <a href="#">Home</a>
-                <a href="#">Comprar</a>
-                <a href="#">Mercado</a>
-                <a href="#">Trade</a>
-                <a href="#">Contato</a>            
-        </div>
-        
+    <section class="menu-footer">
+        <div class="conteiner-menu-footer">                       
+            <a href="#home">Home</a>            
+            <a href="#mercado">Mercado</a>
+            <a href="#noticia">Noticia</a>
+            <a href="#Produtos">Produtos</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#contato">Contato</a>
+            <a href="#aplicativo">Nosso Aplicativo</a>            
+        </section>
+
+                
     </div>  
     
     <div class="copyright">Cleidison Grizorte @ 2023</div>
