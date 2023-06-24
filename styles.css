@@ -284,11 +284,13 @@ section.Lista-grafico-ind{
 }
 
 .menu-footer{
-    justify-content: space-around;
-    display: flex;
+     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
 }
 .menu-fo{
     display: grid;
+    
     
 }
 .menu-footer a{
@@ -300,11 +302,11 @@ section.Lista-grafico-ind{
     color: var(--green);
 }
 .menu-footer h1{
-    font-size: 4rem;
+    font-size: 2rem;
 }
 .copyright{
     background: var(--fundo);
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
     padding: .5rem;
     color: var(--light-color);
